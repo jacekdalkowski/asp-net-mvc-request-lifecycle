@@ -1,5 +1,9 @@
-﻿using Microsoft.Owin;
+﻿using log4net;
+using log4net.Config;
+using Microsoft.Owin;
 using Owin;
+using System.IO;
+using System.Web.Hosting;
 
 [assembly: OwinStartupAttribute(typeof(asp_net_mvc_request_lifecycle.Startup))]
 namespace asp_net_mvc_request_lifecycle
@@ -8,6 +12,8 @@ namespace asp_net_mvc_request_lifecycle
     {
         public void Configuration(IAppBuilder app)
         {
+            XmlConfigurator.Configure(new FileInfo(HostingEnvironment.MapPath(@"~/log4net.config")));
+
             ConfigureAuth(app);
         }
     }
