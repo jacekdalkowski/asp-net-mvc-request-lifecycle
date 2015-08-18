@@ -14,7 +14,6 @@ namespace asp_net_mvc_request_lifecycle
         {
             XmlConfigurator.Configure(new FileInfo(HostingEnvironment.MapPath(@"~/log4net.config")));
 
-            ConfigureAuth(app);
         }
     }
 }
