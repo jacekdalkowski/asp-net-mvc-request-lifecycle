@@ -1,0 +1,444 @@
+2015-08-23 15:38:21,136 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:38:22,758 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:38:22,782 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:38:22,929 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:38:22,949 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:38:22,959 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:38:22,972 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:38:22,976 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:38:22,979 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:38:22,983 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:38:22,990 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:38:22,994 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:38:23,007 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:38:23,013 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:38:23,016 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:38:23,020 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:38:23,062 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:38:23,074 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:38:38,267 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:38:38,306 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:38:39,196 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:38:41,208 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:42:08,460 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:42:09,586 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:42:09,610 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:42:09,722 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:42:09,761 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:42:09,771 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:42:09,785 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:42:09,790 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:42:09,794 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:42:09,799 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:42:09,804 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:42:09,808 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:42:09,818 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:42:09,825 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:42:09,830 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:42:09,834 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:42:09,905 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:42:09,912 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:42:11,983 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:42:11,990 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:42:13,550 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:42:15,528 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:45:32,433 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:45:33,633 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:45:33,655 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:45:33,778 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:45:33,797 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:45:33,806 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:45:33,823 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:45:33,827 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:45:33,830 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:45:33,835 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:45:33,842 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:45:33,846 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:45:33,859 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:45:34,069 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:45:34,077 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:45:34,080 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:45:34,122 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:45:34,128 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:45:36,926 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:45:36,941 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:45:38,747 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:45:42,244 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:45:44,523 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:45:44,532 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:45:44,539 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:45:44,569 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:45:44,579 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:45:44,586 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:45:57,137 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProviderFactory 
+2015-08-23 15:46:46,778 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:46:48,316 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:46:48,343 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:46:48,477 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:46:48,501 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:46:48,515 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:46:48,534 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:46:48,542 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:46:48,553 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:46:48,561 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:46:48,570 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:46:48,577 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:46:48,595 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:46:48,605 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:46:48,611 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:46:48,617 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:46:48,660 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:46:48,666 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:46:55,627 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:46:55,657 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:46:57,798 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:46:59,053 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:47:01,529 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:47:01,542 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:47:01,561 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:47:01,566 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:47:01,571 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:47:01,579 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:47:02,863 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProviderFactory 
+2015-08-23 15:47:04,818 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProvider 
+2015-08-23 15:47:04,839 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAction(ControllerContext controllerContext, string actionName) 
+2015-08-23 15:47:04,856 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetControllerDescriptor(ControllerContext controllerContext) 
+2015-08-23 15:47:04,867 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, string actionName) 
+2015-08-23 15:47:04,914 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetFilters(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:47:04,922 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetServices(Type serviceType), serviceType: System.Web.Mvc.IFilterProvider 
+2015-08-23 15:49:21,364 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:49:22,530 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:49:22,554 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:49:22,699 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:49:22,719 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:49:22,730 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:49:22,743 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:49:22,750 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:49:22,755 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:49:22,760 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:49:22,767 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:49:22,773 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:49:22,784 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:49:22,792 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:49:22,796 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:49:22,801 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:49:22,839 [5] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:49:22,844 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:49:29,418 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:49:29,430 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:49:30,114 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:49:31,877 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:49:34,647 [5] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:49:34,659 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:49:34,673 [5] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:49:34,678 [5] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:49:34,685 [5] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:49:34,691 [5] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:49:35,476 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProviderFactory 
+2015-08-23 15:49:36,701 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProvider 
+2015-08-23 15:49:36,729 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAction(ControllerContext controllerContext, string actionName) 
+2015-08-23 15:49:36,735 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetControllerDescriptor(ControllerContext controllerContext) 
+2015-08-23 15:49:36,750 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, string actionName) 
+2015-08-23 15:49:36,769 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetFilters(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:49:36,779 [5] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetServices(Type serviceType), serviceType: System.Web.Mvc.IFilterProvider 
+2015-08-23 15:50:25,540 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:50:25,568 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:50:25,585 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:50:27,039 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:50:27,072 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:50:27,082 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:50:27,095 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:50:27,100 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:50:27,104 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:50:27,108 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:50:27,113 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:50:27,118 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:50:27,133 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:50:27,139 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:50:27,143 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:50:27,147 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:50:27,195 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:50:27,199 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:50:29,356 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:50:29,372 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:50:30,029 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:50:30,948 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:50:32,093 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:50:32,102 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:50:32,109 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:50:32,116 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:50:32,122 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:50:32,129 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:50:33,147 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProviderFactory 
+2015-08-23 15:50:33,973 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProvider 
+2015-08-23 15:50:33,985 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAction(ControllerContext controllerContext, string actionName) 
+2015-08-23 15:50:33,991 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetControllerDescriptor(ControllerContext controllerContext) 
+2015-08-23 15:50:34,007 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, string actionName) 
+2015-08-23 15:50:34,022 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetFilters(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:50:34,031 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetServices(Type serviceType), serviceType: System.Web.Mvc.IFilterProvider 
+2015-08-23 15:50:37,080 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnError 
+2015-08-23 15:50:37,214 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnLogRequest 
+2015-08-23 15:50:37,221 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostLogRequest 
+2015-08-23 15:50:37,238 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnEndRequest 
+2015-08-23 15:50:37,246 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestHeaders 
+2015-08-23 15:50:37,251 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestContent 
+2015-08-23 15:50:37,256 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnRequestCompleted 
+2015-08-23 15:50:40,746 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:50:40,755 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:50:40,760 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:50:40,766 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:50:40,772 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:50:40,780 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:50:40,785 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:50:40,790 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:50:40,797 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:50:40,800 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:50:40,804 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:50:40,808 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:50:40,813 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:50:40,815 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:50:40,819 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:50:46,272 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:50:48,093 [10] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:50:48,103 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:50:48,121 [10] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:50:48,126 [10] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:50:48,132 [10] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:50:48,137 [10] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:50:48,143 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAction(ControllerContext controllerContext, string actionName) 
+2015-08-23 15:50:48,148 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetControllerDescriptor(ControllerContext controllerContext) 
+2015-08-23 15:50:48,155 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, string actionName) 
+2015-08-23 15:50:48,164 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetFilters(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:50:48,170 [10] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetServices(Type serviceType), serviceType: System.Web.Mvc.IFilterProvider 
+2015-08-23 15:50:59,560 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:50:59,588 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:50:59,604 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:51:00,647 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:51:00,655 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:51:00,666 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:51:00,679 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:51:00,685 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:51:00,691 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:51:00,697 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:51:00,702 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:51:00,710 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:51:00,722 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:51:00,727 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:51:00,732 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:51:00,736 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:51:00,780 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:51:00,785 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:51:03,842 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:51:03,849 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:51:05,306 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:51:07,328 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:51:08,825 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:51:08,838 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:51:08,849 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:51:08,858 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:51:08,868 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:51:08,875 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:51:10,598 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProviderFactory 
+2015-08-23 15:51:12,437 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProvider 
+2015-08-23 15:51:12,454 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAction(ControllerContext controllerContext, string actionName) 
+2015-08-23 15:51:12,463 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetControllerDescriptor(ControllerContext controllerContext) 
+2015-08-23 15:51:12,473 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, string actionName) 
+2015-08-23 15:51:12,491 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetFilters(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:51:12,499 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetServices(Type serviceType), serviceType: System.Web.Mvc.IFilterProvider 
+2015-08-23 15:51:51,262 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnError 
+2015-08-23 15:51:51,328 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnLogRequest 
+2015-08-23 15:51:51,337 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostLogRequest 
+2015-08-23 15:51:51,347 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnEndRequest 
+2015-08-23 15:51:51,354 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestHeaders 
+2015-08-23 15:51:51,360 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestContent 
+2015-08-23 15:51:51,365 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnRequestCompleted 
+2015-08-23 15:52:26,709 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:52:26,737 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:52:26,753 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:52:28,030 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:52:28,063 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:52:28,072 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:52:28,084 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:52:28,089 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:52:28,096 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:52:28,101 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:52:28,105 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:52:28,111 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:52:28,121 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:52:28,128 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:52:28,131 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:52:28,134 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:52:28,177 [8] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:52:28,180 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:52:35,609 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:52:35,619 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:52:36,785 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:52:55,583 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:52:57,761 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:52:57,775 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:52:57,786 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:52:57,794 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:52:57,801 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:52:57,809 [8] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:53:00,450 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProviderFactory 
+2015-08-23 15:53:10,742 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProvider 
+2015-08-23 15:53:12,890 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAction(ControllerContext controllerContext, string actionName) 
+2015-08-23 15:53:12,905 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetControllerDescriptor(ControllerContext controllerContext) 
+2015-08-23 15:53:12,921 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, string actionName) 
+2015-08-23 15:53:12,959 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetFilters(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:53:12,968 [8] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetServices(Type serviceType), serviceType: System.Web.Mvc.IFilterProvider 
+2015-08-23 15:54:14,498 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Application_Start() 
+2015-08-23 15:54:15,584 [1] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.ctor() 
+2015-08-23 15:54:15,597 [1] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:54:15,662 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:54:15,695 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:54:15,703 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:54:15,710 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:54:15,715 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:54:15,720 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:54:15,725 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:54:15,731 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:54:15,736 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:54:15,747 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:54:15,753 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:54:15,758 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:54:15,764 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:54:15,788 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:54:15,793 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:54:18,083 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+2015-08-23 15:54:18,113 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:54:18,978 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+2015-08-23 15:54:21,624 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:54:22,237 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:54:22,244 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:54:22,250 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:54:22,254 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:54:22,261 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:54:22,268 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:54:22,994 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProviderFactory 
+2015-08-23 15:54:24,554 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.ITempDataProvider 
+2015-08-23 15:54:25,342 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAction(ControllerContext controllerContext, string actionName) 
+2015-08-23 15:54:25,356 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetControllerDescriptor(ControllerContext controllerContext) 
+2015-08-23 15:54:25,366 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, string actionName) 
+2015-08-23 15:54:25,384 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetFilters(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:54:25,390 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetServices(Type serviceType), serviceType: System.Web.Mvc.IFilterProvider 
+2015-08-23 15:54:26,533 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAuthenticationFilters(ControllerContext controllerContext, IList<IAuthenticationFilter> filters, ActionDescriptor actionDescriptor) 
+2015-08-23 15:54:26,546 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList<IAuthorizationFilter> filters, ActionDescriptor actionDescriptor) 
+2015-08-23 15:54:26,553 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:54:26,566 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList<IActionFilter> filters, ActionDescriptor actionDescriptor, IDictionary<string, object> parameters) 
+2015-08-23 15:54:26,577 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary<string, object> parameters) 
+2015-08-23 15:54:26,600 [9] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Index() 
+2015-08-23 15:54:26,611 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.CreateActionResult(ControllerContext controllerContext, ActionDescriptor actionDescriptor, object actionReturnValue) 
+2015-08-23 15:54:26,616 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAuthenticationFiltersChallenge(ControllerContext controllerContext, IList<IAuthenticationFilter> filters, ActionDescriptor actionDescriptor, ActionResult result) 
+2015-08-23 15:54:26,621 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList<IResultFilter> filters, ActionResult actionResult) 
+2015-08-23 15:54:26,624 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult) 
+2015-08-23 15:54:26,629 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetServices(Type serviceType), serviceType: System.Web.Mvc.IViewEngine 
+2015-08-23 15:54:33,669 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IViewPageActivator 
+2015-08-23 15:54:33,688 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.Init() 
+2015-08-23 15:54:39,484 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:54:39,498 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:54:39,514 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:54:39,523 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:54:39,527 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:54:39,535 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:54:39,540 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+2015-08-23 15:54:39,544 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+2015-08-23 15:54:39,547 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:54:39,551 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:54:39,556 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:54:39,560 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:54:39,564 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:54:39,567 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+2015-08-23 15:54:39,571 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+2015-08-23 15:54:40,769 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: asp_net_mvc_request_lifecycle.Controllers.HomeController 
+2015-08-23 15:54:44,375 [11] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.ctor() 
+2015-08-23 15:54:44,392 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
+2015-08-23 15:54:44,405 [11] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecute() 
+2015-08-23 15:54:44,410 [11] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
+2015-08-23 15:54:44,414 [11] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.BeginExecuteCore(AsyncCallback callback, object state) 
+2015-08-23 15:54:44,422 [11] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.CreateTempDataProvider() 
+2015-08-23 15:54:44,428 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAction(ControllerContext controllerContext, string actionName) 
+2015-08-23 15:54:44,440 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetControllerDescriptor(ControllerContext controllerContext) 
+2015-08-23 15:54:44,447 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, string actionName) 
+2015-08-23 15:54:44,454 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetFilters(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:54:44,459 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAuthenticationFilters(ControllerContext controllerContext, IList<IAuthenticationFilter> filters, ActionDescriptor actionDescriptor) 
+2015-08-23 15:54:44,465 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList<IAuthorizationFilter> filters, ActionDescriptor actionDescriptor) 
+2015-08-23 15:54:44,471 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor) 
+2015-08-23 15:54:44,477 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList<IActionFilter> filters, ActionDescriptor actionDescriptor, IDictionary<string, object> parameters) 
+2015-08-23 15:54:44,482 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary<string, object> parameters) 
+2015-08-23 15:54:44,488 [11] DEBUG  asp_net_mvc_request_lifecycle.Controllers.HomeController - HomeController.Index() 
+2015-08-23 15:54:44,493 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.CreateActionResult(ControllerContext controllerContext, ActionDescriptor actionDescriptor, object actionReturnValue) 
+2015-08-23 15:54:44,499 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeAuthenticationFiltersChallenge(ControllerContext controllerContext, IList<IAuthenticationFilter> filters, ActionDescriptor actionDescriptor, ActionResult result) 
+2015-08-23 15:54:44,505 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList<IResultFilter> filters, ActionResult actionResult) 
+2015-08-23 15:54:44,509 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult) 
+2015-08-23 15:54:49,600 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: ASP._Page_Views_Home_Index_cshtml 
+2015-08-23 15:54:53,048 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: ASP._Page_Views_Home_Index_cshtml 
+2015-08-23 15:54:59,471 [9] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: ASP._Page_Views_Shared__LoginPartial_cshtml 
+2015-08-23 15:54:59,482 [11] DEBUG  asp_net_mvc_request_lifecycle.Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: ASP._Page_Views_Shared__LoginPartial_cshtml 
+2015-08-23 15:55:01,233 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostRequestHandlerExecute 
+2015-08-23 15:55:01,234 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostRequestHandlerExecute 
+2015-08-23 15:55:01,242 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnReleaseRequestState 
+2015-08-23 15:55:01,238 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnReleaseRequestState 
+2015-08-23 15:55:01,250 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostReleaseRequestState 
+2015-08-23 15:55:01,253 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostReleaseRequestState 
+2015-08-23 15:55:01,331 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnUpdateRequestCache 
+2015-08-23 15:55:01,331 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnUpdateRequestCache 
+2015-08-23 15:55:01,338 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostUpdateRequestCache 
+2015-08-23 15:55:01,342 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostUpdateRequestCache 
+2015-08-23 15:55:01,346 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnLogRequest 
+2015-08-23 15:55:01,351 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnLogRequest 
+2015-08-23 15:55:01,356 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostLogRequest 
+2015-08-23 15:55:01,361 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostLogRequest 
+2015-08-23 15:55:01,372 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnEndRequest 
+2015-08-23 15:55:01,373 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnEndRequest 
+2015-08-23 15:55:01,377 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestHeaders 
+2015-08-23 15:55:01,381 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestHeaders 
+2015-08-23 15:55:01,387 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestContent 
+2015-08-23 15:55:01,393 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestContent 
+2015-08-23 15:55:01,397 [9] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnRequestCompleted 
+2015-08-23 15:55:01,401 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnRequestCompleted 
+2015-08-23 15:55:01,724 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:55:01,743 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:55:01,749 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:55:01,753 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:55:01,751 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnBeginRequest 
+2015-08-23 15:55:01,758 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:55:01,763 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthenticateRequest 
+2015-08-23 15:55:01,767 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:55:01,772 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+2015-08-23 15:55:01,782 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAuthorizeRequest 
+2015-08-23 15:55:01,780 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:55:01,786 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+2015-08-23 15:55:01,794 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnResolveRequestCache 
+2015-08-23 15:55:01,797 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostResolveRequestCache 
+2015-08-23 15:55:01,791 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:55:01,804 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:55:01,801 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnMapRequestHandler 
+2015-08-23 15:55:01,810 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnAcquireRequestState 
+2015-08-23 15:55:01,807 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:55:01,814 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostAcquireRequestState 
+2015-08-23 15:55:01,818 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:55:01,821 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+2015-08-23 15:55:01,894 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostRequestHandlerExecute 
+2015-08-23 15:55:01,894 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostRequestHandlerExecute 
+2015-08-23 15:55:01,900 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnReleaseRequestState 
+2015-08-23 15:55:01,907 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnReleaseRequestState 
+2015-08-23 15:55:01,914 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostReleaseRequestState 
+2015-08-23 15:55:01,921 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostReleaseRequestState 
+2015-08-23 15:55:01,929 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnUpdateRequestCache 
+2015-08-23 15:55:01,934 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnUpdateRequestCache 
+2015-08-23 15:55:01,940 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostUpdateRequestCache 
+2015-08-23 15:55:01,947 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostUpdateRequestCache 
+2015-08-23 15:55:01,952 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnLogRequest 
+2015-08-23 15:55:01,961 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnLogRequest 
+2015-08-23 15:55:01,967 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostLogRequest 
+2015-08-23 15:55:01,973 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPostLogRequest 
+2015-08-23 15:55:01,981 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnEndRequest 
+2015-08-23 15:55:01,988 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnEndRequest 
+2015-08-23 15:55:01,995 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestHeaders 
+2015-08-23 15:55:02,003 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestHeaders 
+2015-08-23 15:55:02,011 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestContent 
+2015-08-23 15:55:02,018 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnPreSendRequestContent 
+2015-08-23 15:55:02,027 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnRequestCompleted 
+2015-08-23 15:55:02,033 [11] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnRequestCompleted 
+2015-08-23 15:55:44,397 [10] DEBUG  asp_net_mvc_request_lifecycle.MvcApplication - MvcApplication.OnDisposed 
