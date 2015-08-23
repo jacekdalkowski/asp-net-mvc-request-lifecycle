@@ -163,9 +163,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\Filters\VerboseAuthorizationFilterAttribute.cs" />
+    <Compile Include="Infrastructure\Filters\VerboseExceptionFilterAttribute.cs" />
+    <Compile Include="Infrastructure\Filters\VerboseResultFilterAttribute.cs" />
     <Compile Include="Infrastructure\VerboseControllerActionInvoker.cs" />
     <Compile Include="Infrastructure\VerboseControllerFactory.cs" />
     <Compile Include="Infrastructure\VerboseDependencyResolver.cs" />
+    <Compile Include="Infrastructure\Filters\VerboseActionFilterAttribute.cs" />
     <Compile Include="Infrastructure\VerboseMvcHandler.cs" />
     <Compile Include="Infrastructure\VerboseMvcRouteHandler.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
