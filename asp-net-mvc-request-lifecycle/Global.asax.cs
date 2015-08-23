@@ -1,8 +1,12 @@
-﻿using log4net;
+﻿using asp_net_mvc_request_lifecycle.Infrastructure;
+using log4net;
+using log4net.Config;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
+using System.Web.Hosting;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
@@ -13,15 +17,27 @@ namespace asp_net_mvc_request_lifecycle
     {
         private static ILog _log = LogManager.GetLogger(typeof(MvcApplication));
 
+        static MvcApplication()
+        {
+            XmlConfigurator.Configure(new FileInfo(HostingEnvironment.MapPath(@"~/log4net.config")));
+        }
+
         protected void Application_Start()
         {
+            _log.Debug("MvcApplication.Application_Start()");
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            ControllerBuilder.Current.SetControllerFactory(new VerboseControllerFactory());
+            DependencyResolver.SetResolver(new VerboseDependencyResolver());
         }
 
         public override void Init()
         {
+            _log.Debug("MvcApplication.Init()");
+
             base.Init();
             BeginRequest += OnBeginRequest;
             AuthenticateRequest += OnAuthenticateRequest;

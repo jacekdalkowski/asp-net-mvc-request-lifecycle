@@ -12,7 +12,7 @@ namespace asp_net_mvc_request_lifecycle
     {
         public void Configuration(IAppBuilder app)
         {
-            XmlConfigurator.Configure(new FileInfo(HostingEnvironment.MapPath(@"~/log4net.config")));
+            
 
         }
     }
