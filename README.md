@@ -1,29 +1,53 @@
 # asp-net-mvc-request-lifecycle
 Application logging request processing in asp.net mvc
 
+
 MvcApplication - MvcApplication.Init() 
+
 MvcApplication - MvcApplication.OnBeginRequest 
+
 MvcApplication - MvcApplication.OnAuthenticateRequest 
+
 MvcApplication - MvcApplication.OnPostAuthenticateRequest 
+
 MvcApplication - MvcApplication.OnAuthorizeRequest 
+
 MvcApplication - MvcApplication.OnPostAuthorizeRequest 
+
 MvcApplication - MvcApplication.OnResolveRequestCache 
+
 Infrastructure.VerboseMvcRouteHandler - VerboseMvcRouteHandler.GetHttpHandler(RequestContext requestContext) - returning VerboseMvcHandler 
+
 Infrastructure.VerboseMvcHandler - VerboseMvcHandler.ctor(RequestContext requestContext) 
+
 MvcApplication - MvcApplication.OnPostResolveRequestCache 
+
 MvcApplication - MvcApplication.OnMapRequestHandler 
+
 MvcApplication - MvcApplication.OnAcquireRequestState 
+
 MvcApplication - MvcApplication.OnPostAcquireRequestState 
+
 MvcApplication - MvcApplication.OnPreRequestHandlerExecute 
+
 Infrastructure.VerboseMvcHandler - VerboseMvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, object state) 
+
 Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerFactory 
+
 Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType) returning null. 
+
 Infrastructure.VerboseControllerFactory - VerboseControllerFactory.CreateController(System.Web.Routing.RequestContext requestContext, string controllerName) 
+
 Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: System.Web.Mvc.IControllerActivator 
+
 Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType) returning null. 
+
 Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType), serviceType: Controllers.HomeController 
+
 Infrastructure.VerboseDependencyResolver - VerboseDependencyResolver.GetService(Type serviceType) returning instance of HomeController. 
+
 Controllers.HomeController - HomeController.ctor() 
+
 Infrastructure.VerboseControllerActionInvoker - VerboseControllerActionInvoker.ctor() 
 Controllers.HomeController - HomeController.BeginExecute() 
 Controllers.HomeController - HomeController.Initialize(RequestContext requestContext) 
